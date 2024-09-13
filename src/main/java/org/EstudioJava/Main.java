@@ -107,7 +107,7 @@ public class Main {
 
         // ----------------------------------------------------------------
         System.out.println();
-        System.out.println("Ejercicio 13");
+        System.out.println("Ejercicio 14");
 
         //Creo instancia
         CiclosFor parrayrevert = new CiclosFor();
