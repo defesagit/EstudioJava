@@ -56,23 +56,31 @@ public class Main {
         CiclosFor num = new CiclosFor();
         //call method print pair
         num.prinnum10();
+
         // ----------------------------------------------------------------
         System.out.println();
         System.out.println("Ejercicio 8");
+        //Creo instancia
+        CiclosFor eje8prinnum10 = new CiclosFor();
+        //call method print pair
+        eje8prinnum10.prinsumnum10();
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 9");
         //Creo instancia
         CiclosFor psumnum = new CiclosFor();
         //call method print pair
         num.printcharacter();
         // ----------------------------------------------------------------
         System.out.println();
-        System.out.println("Ejercicio 9");
+        System.out.println("Ejercicio 10");
         //Creo instancia
         CiclosFor parray = new CiclosFor();
         //call method print pair
         parray.printarray();
         // ----------------------------------------------------------------
         System.out.println();
-        System.out.println("Ejercicio 10");
+        System.out.println("Ejercicio 11");
 
         //Creo instancia
         CiclosFor psumarray = new CiclosFor();
@@ -80,7 +88,7 @@ public class Main {
         psumarray.printsumarray();
         // ----------------------------------------------------------------
         System.out.println();
-        System.out.println("Ejercicio 11");
+        System.out.println("Ejercicio 12");
 
         //Creo instancia
         CiclosFor pmayarray = new CiclosFor();
@@ -89,7 +97,7 @@ public class Main {
 
         // ----------------------------------------------------------------
         System.out.println();
-        System.out.println("Ejercicio 12");
+        System.out.println("Ejercicio 13");
 
         //Creo instancia
         CiclosFor pmayor10 = new CiclosFor();
@@ -98,7 +106,7 @@ public class Main {
 
         // ----------------------------------------------------------------
         System.out.println();
-        System.out.println("Ejercicio 13");
+        System.out.println("Ejercicio 14");
 
         //Creo instancia
         CiclosFor pmult3 = new CiclosFor();
@@ -107,11 +115,98 @@ public class Main {
 
         // ----------------------------------------------------------------
         System.out.println();
-        System.out.println("Ejercicio 14");
+        System.out.println("Ejercicio 15");
 
         //Creo instancia
         CiclosFor parrayrevert = new CiclosFor();
         //call method print pair
         parrayrevert.revertarray();
+
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 16");
+
+        //Creo instancia
+        CiclosFor eje16 = new CiclosFor();
+        //call method print pair
+        eje16.eje16Fibonacci();
+
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 17");
+
+        //Creo instancia
+        CiclosFor eje17 = new CiclosFor();
+        //call method print pair
+        eje17.eje17PrintLetter();
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 18");
+
+        //Creo instancia
+        CiclosFor eje18 = new CiclosFor();
+        //call method print pair
+        eje18.eje18ConvertMayus();
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 19");
+
+        //Creo instancia
+        CiclosFor eje19 = new CiclosFor();
+        //call method print pair
+        eje19.eje19PiramAst();
+
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 20");
+
+        //Creo instancia
+        CiclosFor eje20 = new CiclosFor();
+        //call method print pair
+        eje20.eje20SearchNumArray();
+
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 21");
+
+        //Creo instancia
+        CiclosFor eje21 = new CiclosFor();
+        //call method print pair
+        eje21.eje21PosImpar();
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 22");
+
+        //Creo instancia
+        CiclosFor eje22 = new CiclosFor();
+        //call method print pair
+        eje22.eje22Promedio();
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 23");
+
+        //Creo instancia
+        CiclosFor eje23 = new CiclosFor();
+        //call method print pair
+        eje23.eje23ContString();
+
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 24");
+
+        //Creo instancia
+        CiclosFor eje24 = new CiclosFor();
+        //call method print pair
+        eje24.eje24ConcatenarArreglo();
+
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 25");
+
+        //Creo instancia
+        CiclosFor eje25 = new CiclosFor();
+        //call method print pair
+        eje25.eje25PiramideInvert();
+
     }
 }
