@@ -207,6 +207,46 @@ public class Main {
         CiclosFor eje25 = new CiclosFor();
         //call method print pair
         eje25.eje25PiramideInvert();
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 26");
+
+        //Creo instancia
+        CiclosFor eje26 = new CiclosFor();
+        //call method print pair
+        eje26.eje26ConvertArrayString();
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 27");
+
+        //Creo instancia
+        CiclosFor eje27 = new CiclosFor();
+        //call method print pair
+        eje27.eje27FiltroMayorCincuenta();
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 28");
+
+        //Creo instancia
+        CiclosFor eje28 = new CiclosFor();
+        //call method print pair
+        eje28.eje28OrdenArray();
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 29");
+
+        //Creo instancia
+        CiclosFor eje29 = new CiclosFor();
+        //call method print pair
+        eje29.eje29Matriz();
+        // ----------------------------------------------------------------
+        System.out.println();
+        System.out.println("Ejercicio 30");
+
+        //Creo instancia
+        CiclosFor eje30 = new CiclosFor();
+        //call method print pair
+        eje30.eje30Palindromo();
 
     }
 }

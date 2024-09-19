@@ -1,6 +1,7 @@
 package org.EstudioJava;
 
 import java.net.SocketOption;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CiclosFor {
@@ -286,4 +287,120 @@ public class CiclosFor {
             System.out.println();
         }
     }
+
+    public void eje26ConvertArrayString(){
+        String[] stringArray = {"1", "2", "3", "4", "5"};
+
+        // Crear un array de enteros del mismo tamaño
+        int[] intArray = new int[stringArray.length];
+
+        // Convertir cada string a entero utilizando un bucle for
+        for (int i = 0; i < stringArray.length; i++) {
+            intArray[i] = Integer.parseInt(stringArray[i]);
+        }
+
+        // Imprimir el array convertido
+        System.out.println("Array de números:");
+        for (int num : intArray) {
+            System.out.println(num);
+        }
+    }
+
+    public void eje27FiltroMayorCincuenta(){
+        int[] numbers = {10, 55, 23, 68, 75, 30, 90, 42, 100};
+
+        // Crear una lista para almacenar los números mayores a 50
+        ArrayList<Integer> filteredNumbers = new ArrayList<>();
+
+        // Filtrar los números mayores a 50
+        for (int i = 0; i < numbers.length; i++) {
+            if (numbers[i] > 50) {
+                filteredNumbers.add(numbers[i]);
+            }
+        }
+
+        // Convertir la lista filtrada a un array si es necesario
+        int[] filteredArray = new int[filteredNumbers.size()];
+        for (int i = 0; i < filteredNumbers.size(); i++) {
+            filteredArray[i] = filteredNumbers.get(i);
+        }
+
+        // Imprimir el array filtrado
+        System.out.println("Números mayores a 50:");
+        for (int num : filteredArray) {
+            System.out.println(num);
+        }
+    }
+
+    public void eje28OrdenArray(){
+        int[] numbers = {29, 10, 14, 37, 13};
+
+        // Algoritmo de Selection Sort
+        for (int i = 0; i < numbers.length - 1; i++) {
+            // Encontrar el índice del número más pequeño en el subarray restante
+            int minIndex = i;
+            for (int j = i + 1; j < numbers.length; j++) {
+                if (numbers[j] < numbers[minIndex]) {
+                    minIndex = j;
+                }
+            }
+            // Intercambiar el número más pequeño con el número en la posición actual
+            int temp = numbers[minIndex];
+            numbers[minIndex] = numbers[i];
+            numbers[i] = temp;
+        }
+
+        // Imprimir el array ordenado
+        System.out.println("Array ordenado de menor a mayor:");
+        for (int num : numbers) {
+            System.out.println(num);
+        }
+    }
+
+    public void eje29Matriz(){
+        // Matriz 2D de entrada
+        int[][] matriz = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
+
+        // Obtener el número de filas y columnas
+        int filas = matriz.length;
+        int columnas = matriz[0].length;
+
+        // Imprimir la matriz transpuesta
+        System.out.println("Matriz transpuesta:");
+        for (int i = 0; i < columnas; i++) {
+            for (int j = 0; j < filas; j++) {
+                // Intercambiar filas y columnas para transponer
+                System.out.print(matriz[j][i] + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    public void eje30Palindromo(){
+        // Array de números o letras para verificar
+        int[] array = {1, 2, 3, 2, 1};  // Puedes cambiar este array para probar otros casos
+
+        // Variable para almacenar el resultado
+        boolean esPalindromo = true;
+
+        // Verificar si el array es palíndromo
+        for (int i = 0; i < array.length / 2; i++) {
+            if (array[i] != array[array.length - 1 - i]) {
+                esPalindromo = false;
+                break;  // Si encontramos un valor diferente, podemos detener la búsqueda
+            }
+        }
+
+        // Imprimir el resultado
+        if (esPalindromo) {
+            System.out.println("El array es un palíndromo.");
+        } else {
+            System.out.println("El array no es un palíndromo.");
+        }
+    }
+
 }
