@@ -161,7 +161,7 @@ public class CiclosFor {
         }
 
         // Cerrar el scanner
-        scanner.close();
+//        scanner.close();
     }
 
     public void eje18ConvertMayus(){
